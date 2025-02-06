@@ -11,4 +11,5 @@ I love cats.
 
 ## 2025
 
-- 2025.01.30 Hello world
+- 2025-02-06 Added [Retro gaming corner](_Consoles.html) project.
+- 2025-01-30 Hello world
