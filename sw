@@ -2,7 +2,7 @@
 # sw - suckless webframework - 2012 - MIT License - nibble <develsec.org>
 
 sw_filter() {
-	[ -n "$(echo $1 | grep '\..html')" ] && return 0
+	[ -n "$(echo $1 | grep '^_')" ] && return 0
 	for b in $BL; do
 		[ "$b" = "$1" ] && return 0
 	done
