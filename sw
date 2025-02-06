@@ -102,4 +102,13 @@ find * -iname '*.md' | while read a ; do
 	sw_page "$a" > "$b"
 done
 
+# Create thumbnails
+find * -ilname '*.jpg' | while read a ; do
+	b="$ODIR/$a"
+	width=$(basename $a | grep -oE '^[0-9]*px-' | sed -e 's,px-,,g')
+	echo "* $a"
+	rm $b
+	magick "$a" -resize $width"x" "$b"
+done
+
 exit 0
