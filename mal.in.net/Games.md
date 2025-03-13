@@ -5,6 +5,9 @@ This is a list of games I finished so far. I consider a game "finished" after I 
 
 ## 2025
 
+- 2025-03-13 Castlevania: Bloodlines (MD)
+- 2025-03-05 Half-Life (PC)
+- 2025-02-18 Grand Theft Auto: Vice City (PS2)
 - 2025-01-30 Portal (PS3)
 - 2025-01-23 Tony Hawk's Pro Skater (DC)
 - 2025-01-19 Sonic Adventure 2 (DC)
